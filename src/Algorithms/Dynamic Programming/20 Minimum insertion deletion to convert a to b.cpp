@@ -30,6 +30,7 @@ int main() {
 	string X, Y; cin >> X >> Y;
 	int n = X.length(), m = Y.length();
 
-	MinInsertDel(X, Y, n, m) << endl;
+	MinInsertDel(X, Y, n, m);
+	 cout<< endl;
 	return 0;
 }
